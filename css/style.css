@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  opacity: 0.87;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+li{
+  display: inline;
+}
+
+header ul{
+  text-align: right;
+}
+
+#apps {
+  opacity: 0.7;
+}
+
+#notif {
+
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+  background-color: grey;
+  border-radius: 100%;
+}
+header li a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+p {
+  font-size: 13px;
+  color: rgb(0,0,0);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    margin: 0 auto;
+}
+
+form {
+  padding-top: 23px;
+  text-align: center;
+  align-items: center;
+ }
+
+ form #searchbar {
+   width: 584px;
+   height: 44px;
+   margin: 0 auto;
+   border: 1px solid lightgrey;
+   box-shadow: 0 3px 10px -5px;
+   align-items: center;
+   border-radius: 2px;
+   padding-right: 1em;
+   padding-left: 1rem;
+   margin-bottom: 2rem;
+ }
+
+ form #searchbar:hover {
+   box-shadow: 0 4px 4px -4px;
+ }
+
+ input[type=text] {
+   height: 100%;
+   width: 100%;
+   border: 0;
+   font-size: 16px;
+   box-sizing: border-box;
+   outline:none;
+ }
+
+form input[type="submit"]{
+  height:36px;
+  width:142px;
+  background-color: #f2f2f2;
+  color: #757575;
+  border-radius: 2px;
+  border: 0;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+form input[type="submit"]:hover {
+    border: 1px solid lightgrey;
+    box-shadow: 0 2px 15px -9px;
+    color: black;
+    cursor: pointer;
+}
+
+form p {
+  margin-top: 30px;
+}
+
+form p span {
+    text-decoration: none;
+    color: #1a0dab;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  border-top: 1px solid #e4e4e4;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.location {
+  position: fixed;
+  left: 0;
+  bottom: 39px;
+  width: 100%;
+  background-color: #F2F2F2;
+  border-top: 1px solid #e4e4e4;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.location p{
+  font-size: 15px;
+  color: rgba(0,0,0,0.54);
+  padding-left: 27px;
+}
+
+ #f-left ul {
+   float: left;
+
+ }
+
+ #f-right ul {
+   float: right;
+ }
+
+ #f-left a {
+   padding-left: 27px;
+   opacity: 0.54;
+   font-size: 13px;
+ }
+
+ #f-right a {
+   font-size: 13px;
+   padding-right: 27px;
+   opacity: 0.54;
+ }
